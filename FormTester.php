@@ -10,7 +10,7 @@ class FormTester
 
 
     /**
-     * title constructor
+     * nonce custructor
      * @param string $id code
      * @param string $slug slug
      * verifyNonce($_SERVER['REMOTE_ADDR'], 'contact-front')
@@ -24,7 +24,7 @@ class FormTester
     }
 
     /**
-     * title constructor
+     * verify nonce
      * @param string $id code
      * @param string $slug slug
      * verifyNonce($_SERVER['REMOTE_ADDR'], 'contact-front')
@@ -35,7 +35,7 @@ class FormTester
     }
 
     /**
-     * title constructor
+     * clean $_POST
      * @param string $value submit text
      */
     public function clean( $value )
